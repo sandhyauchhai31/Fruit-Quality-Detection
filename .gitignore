@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.h5
+.env
+
+# Node/React
+node_modules/
+build/
+dist/
+
+# System
+.DS_Store
