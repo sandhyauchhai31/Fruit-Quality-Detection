@@ -5,6 +5,7 @@ __pycache__/
 *.pyd
 *.h5
 .env
+venv/
 
 # Node/React
 node_modules/
