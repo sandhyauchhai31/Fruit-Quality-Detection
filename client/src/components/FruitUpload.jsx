@@ -45,7 +45,7 @@ function FruitUpload() {
     formData.append("file", image);
 
     try {
-      const res = await axios.post("http://localhost:8000/predict", formData, {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/predict`, formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
