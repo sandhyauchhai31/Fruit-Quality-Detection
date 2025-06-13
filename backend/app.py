@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # Load multi-output model
-model = tf.keras.models.load_model("model/fruit_multi_output_model_1.h5")
+model = tf.keras.models.load_model("model/efficientnet_fruit_model.h5")
 
 # Fruit class mapping (order must match training)
 fruit_labels = ["apple", "banana", "orange"]
